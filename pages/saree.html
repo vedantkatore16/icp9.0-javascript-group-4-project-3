@@ -9,7 +9,7 @@
 .box{
     margin: 20px auto;
     height: 610px;
-    width: 1300px;
+    width: 1000px;
     border: none;
     background-color: rgba(248, 242, 242, 0.934);
     box-shadow:  2px 15px 12px 4px #ffffe6;
@@ -19,7 +19,7 @@
 .imge{
     position: relative;
     top: 40px;
-    left: 150px;
+    left: 100px;
 }
 .imge:hover{
     transform: scalex(1.1);
@@ -55,7 +55,7 @@ span{
 .btn{
     position: absolute;
     bottom: 250px;
-    right: 615px;
+    right: 505px;
     background-color: orange;
     padding: 15px;
     padding-left: 30px;
@@ -67,7 +67,7 @@ span{
 #btn{
     background-color: chocolate;
     padding-left: 30px;
-    margin-right: 160px;
+    margin-right: 150px;
     cursor: pointer;
 }
 .btn:hover{
@@ -76,7 +76,7 @@ span{
 .big-container{
   position: relative;
    bottom: 220px;
-   margin-left: 130px;
+   margin-left: 280px;
 }
 #product_card{
     width: 80px;
@@ -97,13 +97,13 @@ span{
 }
 .head{
   position: relative;
-  bottom:580px;
+  bottom:610px;
   font-size: 30px;
   right: 80px;
 }
 .para{
   position: relative;
-  bottom:580px;
+  bottom:590px;
   font-size: 20px;
   right: 80px;
 }
@@ -123,7 +123,7 @@ span{
   border: 1px solid black;
   text-align: center;
   position: relative;
-  bottom: 650px;
+  bottom: 680px;
   padding-top: 10px;
   background-color:rgb(201, 195, 193);
   border-radius: 2px;
@@ -131,21 +131,32 @@ span{
   display: inline-block;
 }
 .rate{
- 
   position: relative;
-  bottom: 660px;
+  bottom: 690px;
   right: 80px;
   font-size: 20px;
   color:green;
 }
 #rate{
   position: relative;
-  bottom: 700px;
+  bottom: 730px;
   height: 20px;
+  cursor: pointer;
+}
+.head-call{
+  color: black;
+}
+.emoji{
+  position: relative;
+  bottom: 240px;
+  left: 350px;
+}
+.anker{
+  text-decoration: none;
 }
 </style>
 <body>
-    <h2 class="head">Women Ethnic Wear</h2>
+    <h2 class="head-call">Women Ethnic Wear</h2>
     <div class="container" > 
          <div class="box">
            <img src="../images/fashion-page/saree1.png" width="280px" class="imge"  id="main"/>
@@ -153,25 +164,27 @@ span{
     </div>
     <div class="samall">
       <div class="big-container">
-        <img src="../images/fashion-page/saree.png" alt="mobile" id="product_card" onclick="MoveImage(1)">
-        <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(2)">
-        <img src="../images/fashion-page/saree.png" alt="mobile" id="product_card" onclick="MoveImage(3)">
+        <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(1)">
+        <img src="../images/fashion-page/saree2.png" alt="mobile" id="product_card" onclick="MoveImage(2)">
+        <img src="../images/fashion-page/sarree3.png" alt="mobile" id="product_card" onclick="MoveImage(3)">
         <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(4)">
         <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(5)">     
 </div>
     <div class="cont_one">
       <span class="head">LOROFY</span>
       <p class="para"> Self Design Bollywood Net Saree  (Black)</p>
-      <p class="para">Special price</p>
+      <p class="para">Special price ₹299</p>
       <div>
         <button class="btn">Add To Cart</button> 
         <button class="btn" id="btn">Buy Now</button>
       </div>
       <div class="container-quality">
         <img src="../images/fashion-page/minus.png" class="quality-icon" onclick="incre()"/>
-        <span id="quantity">₹299</span>
+        <span id="quantity">₹0</span>
         <img src="../images/fashion-page/add.png" class="quality-icon_1" onclick="dece()"/>          
 </div>
+<a href="../pages/fashion.html" class="anker">
+<p class="emoji">↖️</p></a>
 <p class="head" id="head">Sizes :</p>
 <p class="size">S</p>
 <p class="size">M</p>
@@ -179,24 +192,25 @@ span{
 <p class="size">XL</p>
 <p class="size">XXL</p>
 <p class="rate">Rating :</p>
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating()">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rat()">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating()">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating()">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating()">
+<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(1)">
+<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(2)">
+<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(3)">
+<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(4)">
+<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(5)">
 </div>
 </div>
+
     <script>
 function MoveImage(num){
 const mainImage = document.getElementById('main');
   if(num == 1){
-    mainImage.src = "../images/fashion-page/saree.png";
-  }
-  else if(num == 2){
     mainImage.src = "../images/fashion-page/saree1.png";
   }
+  else if(num == 2){
+    mainImage.src = "../images/fashion-page/saree2.png";
+  }
   else if(num == 3){
-    mainImage.src = "../images/fashion-page/saree.png";
+    mainImage.src = "../images/fashion-page/sarree3.png";
   }
   else if(num == 4){
     mainImage.src = "../images/fashion-page/saree1.png";
@@ -218,14 +232,13 @@ function dece(){
         quantElement.innerText = --quantity;
     }
 }
-function rating(){
-let rate = document.getElementById('rate');
-    rate.src = "../images/fashion-page/star.png";   
+function rating(num){
+const rate = document.getElementById('rate');
+if(num == 1){
+    rate.src = "../images/fashion-page/star.png";  
+} 
   }
-  function rat(){
-let rate = document.getElementById('rate');
-    rate.src = "../images/fashion-page/star.png";   
-  }
+
     </script>
       
 </body>

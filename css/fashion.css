@@ -49,3 +49,24 @@ span{
     position: relative;
     right: 100px;
 }
+.rated{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.val{
+    font-size: 25px;
+    margin-left: 130px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
