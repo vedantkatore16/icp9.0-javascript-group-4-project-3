@@ -13,10 +13,13 @@
     box-shadow:  2px 2px 2px 2px #d5d5d1;
     border-radius: 20px;
 }
-.img{
+.imge{
     position: relative;
     top: 10px;
     left: 10px;
+}
+.imge:hover{
+    transform: scale(1.4);
 }
 .text{
   text-align: center;
@@ -26,4 +29,23 @@
 span{
     margin-right: 220px;
     color: cadetblue;
+}
+#quantity{
+   position: relative;
+   left: 110px;
+   bottom: 5px;
+   color: rgb(5, 2, 24);
+   font-weight: 900;
+}
+ .quality-icon{
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+.quality-icon_1{
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
 }
