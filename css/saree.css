@@ -1,0 +1,296 @@
+.box{
+    margin: 20px auto;
+    height: 610px;
+    width: 1000px;
+    border: none;
+    background-color: rgba(248, 242, 242, 0.934);
+    box-shadow:  2px 15px 12px 4px #ffffe6;
+    box-shadow:  2px 2px 2px 2px #d5d5d1;
+    border-radius: 20px;
+    }
+.imge{
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+.imge:hover{
+    transform: scalex(1.1);
+}
+.text{
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+span{
+    margin-right: 220px;
+    color: cadetblue;
+}
+#quantity{
+   position: relative;
+   left: 110px;
+   bottom: 5px;
+   color: rgb(5, 2, 24);
+   font-weight: 900;
+}
+ .quality-icon{
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+.quality-icon_1{
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+}
+.btn{
+    position: absolute;
+    bottom: 250px;
+    right: 505px;
+    background-color: orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn{
+    background-color: chocolate;
+    padding-left: 30px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.big-container{
+  position: relative;
+   bottom: 220px;
+   margin-left: 280px;
+}
+#product_card{
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0.25);
+    padding: 3px;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+.samall{
+  display: flex;
+  flex-wrap: wrap;
+}
+.head{
+  position: relative;
+  bottom:610px;
+  font-size: 30px;
+  right: 80px;
+}
+.para{
+  position: relative;
+  bottom:590px;
+  font-size: 20px;
+  right: 80px;
+}
+.container-quality{
+  position: relative;
+  bottom:580px;
+  font-size: 20px;
+  right: 180px;
+}
+#head{
+  font-size: 23px;
+  color: rgb(122, 78, 23);
+}
+.size{
+  height: 30px;
+  width: 40px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  bottom: 680px;
+  padding-top: 10px;
+  background-color:rgb(201, 195, 193);
+  border-radius: 2px;
+  border: none;
+  display: inline-block;
+}
+.rate{
+  position: relative;
+  bottom: 690px;
+  right: 80px;
+  font-size: 20px;
+  color:green;
+}
+#rate{
+  position: relative;
+  bottom: 730px;
+  height: 20px;
+  cursor: pointer;
+}
+.head-call{
+  color: black;
+}
+.emoji{
+  position: relative;
+  bottom: 240px;
+  left: 350px;
+}
+.anker{
+  text-decoration: none;
+}
+.btn_name{
+    position: absolute;
+    top: 1500px;
+    right: 630px;
+    background-color: chocolate;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btne{
+  position: absolute;
+    top: 1500px;
+    right: 480px;
+    background-color:orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btne:hover{
+    box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.btn_name:hover{
+    box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.btn_5{
+    position: absolute;
+    top: 5840px;
+    right: 520px;
+    background-color:orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_5:hover{
+    box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.btn_2{
+  position: absolute;
+    top: 5840px;
+    right: 690px;
+    background-color:chocolate;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_2:hover{
+    box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.xyz{
+  position: absolute;
+    top: 4740px;
+    right:530px;
+    background-color:orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xyz_1{
+  position: absolute;
+    top: 4740px;
+    right: 690px;
+    background-color:chocolate;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.xyz_1:hover {
+  box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.xyz:hover{
+  box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.b{
+  position: absolute;
+    top: 3670px;
+    right: 540px;
+    background-color:orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.br{
+  position: absolute;
+    top: 3670px;
+    right: 690px;
+    background-color:chocolate;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b:hover{
+  box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.br{
+  box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
+.bt{
+  position: absolute;
+    top: 2580px;
+    right:490px;
+    background-color:orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bt-0{
+  position: absolute;
+    top: 2580px;
+    right: 660px;
+    background-color:chocolate;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bt:hover{
+  box-shadow: 2px 3px 4px 3px rgb(188, 185, 180);
+}
