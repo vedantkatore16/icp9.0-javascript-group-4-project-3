@@ -35,4 +35,4 @@ function MoveImage(num){
     if(num == 1){
         rate.src = "../images/fashion-page/star.png";  
     } 
-      }
+      } 
