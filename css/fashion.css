@@ -71,3 +71,10 @@ span{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logoo{
+    border-radius: 70px 70px 70px 70px;
+}
