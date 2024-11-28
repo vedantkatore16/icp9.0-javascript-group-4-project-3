@@ -56,8 +56,10 @@ button {
 }
 
 .category-container {
+    margin-top: 30px;
     display: flex;
-    gap: 30px;
+    gap: 60px;
+    margin-left: 50px;
 }
 
 .category {
@@ -66,8 +68,8 @@ button {
 }
 
 .category img {
-    width: 120px;
-    height: 100px;
+    width: 150px;
+    height: 130px;
     border-radius: 20%;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
