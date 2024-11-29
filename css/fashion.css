@@ -75,7 +75,7 @@ span{
 .logo{
     display: flex;
     justify-content: space-around;
-    background-color: wheat;
+    background-color:rgb(251, 248, 242);
     margin: 0;
     padding: 0;
     margin-top: -10px;
