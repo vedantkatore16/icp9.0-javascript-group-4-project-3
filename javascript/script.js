@@ -14,10 +14,9 @@ function MoveImage(num){
         mainImage.src = "../images/fashion-page/saree1.png";
       }
       else if(num == 5){
-        mainImage.src = "../images/fashion-page/saree1.png";
+        mainImage.src = "../images/fashion-page/sarree5.png";
       }
-    }
-    
+    }    
     const quantElement = document.getElementById('quantity'); 
     
     function incre(){
@@ -36,3 +35,4 @@ function MoveImage(num){
         rate.src = "../images/fashion-page/star.png";  
     } 
       } 
+

@@ -15,6 +15,7 @@
 }
 .imge:hover{
     transform: scalex(1.1);
+    transition: 2s;
 }
 .text{
   text-align: center;
@@ -46,7 +47,7 @@ span{
 }
 .btn{
     position: absolute;
-    bottom: 250px;
+    bottom: 240px;
     right: 505px;
     background-color: orange;
     padding: 15px;
@@ -95,7 +96,7 @@ span{
 }
 .para{
   position: relative;
-  bottom:590px;
+  bottom:600px;
   font-size: 20px;
   right: 80px;
 }
@@ -124,14 +125,14 @@ span{
 }
 .rate{
   position: relative;
-  bottom: 690px;
+  bottom: 700px;
   right: 80px;
   font-size: 20px;
   color:green;
 }
 #rate{
   position: relative;
-  bottom: 730px;
+  bottom: 740px;
   height: 20px;
   cursor: pointer;
 }
@@ -140,11 +141,12 @@ span{
 }
 .emoji{
   position: relative;
-  bottom: 240px;
+  bottom: 280px;
   left: 350px;
 }
 .anker{
   text-decoration: none;
 }
+
 
 

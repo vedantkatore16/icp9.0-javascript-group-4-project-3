@@ -20,6 +20,7 @@
     left: 15px;
 }
 .imge:hover{
+    transition: 1s;
     transform: scale(0.8);
 }
 .text{
@@ -85,3 +86,4 @@ span{
     border-radius:80px 80px 80px 80px;
     margin: 10px;
 }
+
