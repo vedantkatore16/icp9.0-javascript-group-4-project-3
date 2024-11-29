@@ -6,7 +6,8 @@
     width: 310px;
     border: none;
     background-color: rgba(248, 242, 242, 0.934);
-    box-shadow:  2px 15px 12px 4px #ffffe6;
+    box-shadow:  2px 15px 12px 6px #ffffe6;
+    margin: 20px;
 
 }
 .box:hover{
@@ -16,10 +17,11 @@
 .imge{
     position: relative;
     top: 10px;
-    left: 10px;
+    left: 15px;
 }
 .imge:hover{
-    transform: scale(1.4);
+    transition: 1s;
+    transform: scale(0.8);
 }
 .text{
   text-align: center;
@@ -68,5 +70,20 @@ span{
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+.logo{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(251, 248, 242);
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.logoo{
+    border-radius:80px 80px 80px 80px;
+    margin: 10px;
+}
+
