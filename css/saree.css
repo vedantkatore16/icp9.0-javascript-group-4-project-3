@@ -160,13 +160,10 @@ span{
 .stars i.active {
   color: gold;
 }
-
 *{
   box-sizing: border-box;
 }
-@media screen and (max-width: 200px) {
 
-}
 
 
 
