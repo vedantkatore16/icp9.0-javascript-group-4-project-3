@@ -12,6 +12,7 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
+    
 }
 
 h2 {
@@ -20,4 +21,9 @@ h2 {
 
 .form-group{
     margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
 }
