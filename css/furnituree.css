@@ -86,15 +86,3 @@ span{
     border-radius:80px 80px 80px 80px;
     margin: 10px;
 }
-a{
-    text-decoration: none;
-}
-@media screen and (max-width: 200px) {
-    .container{
-        display:inline;
-    }
-    .logo{
-        display:inline;
-    }
-}
-

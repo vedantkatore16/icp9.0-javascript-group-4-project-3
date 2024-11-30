@@ -46,5 +46,23 @@ function MoveImage(num){
     });
    });
 
+   function changeImage(fileName){
+    let img = document.querySelector("#bannerImage");
+    img.setAttribute("src",fileName)
+  }
 
+   function randomImage(fileName){
+    let img = document.querySelector("#shoesImage");
+    img.setAttribute("src",fileName)
+  }
+
+  function sadiImage(fileName){
+    let img = document.querySelector("#newSadi");
+    img.setAttribute("src",fileName)
+  }
+
+  function clickImage(fileName){
+    let img = document.querySelector("#rounded");
+    img.setAttribute("src",fileName)
+  }
    
