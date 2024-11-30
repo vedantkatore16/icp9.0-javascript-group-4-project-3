@@ -74,12 +74,16 @@ button {
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+a{
+    text-decoration: none;
+}
 
 .category p {
     margin-top: 8px;
     font-size: 14px;
     color: #333;
 }
+
 .hero-section {
     display: flex;
     justify-content: space-between;
