@@ -147,6 +147,12 @@ span{
 .anker{
   text-decoration: none;
 }
+*{
+  box-sizing: border-box;
+}
+@media screen and (max-width: 200px) {
+
+}
 
 
 
