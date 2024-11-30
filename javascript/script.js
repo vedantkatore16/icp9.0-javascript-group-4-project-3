@@ -17,7 +17,6 @@ function MoveImage(num){
         mainImage.src = "../images/fashion-page/sarree5.png";
       }
     }
-
     
     const quantElement = document.getElementById('quantity'); 
     
@@ -36,6 +35,7 @@ function MoveImage(num){
       alert('Your order is confirmed...');
          }
 
+
   const stars = document.querySelectorAll(".stars i");
    stars.forEach((star, index1) => {
     star.addEventListener("click", () => {
@@ -46,3 +46,5 @@ function MoveImage(num){
     });
    });
 
+
+   
