@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ShopEase</title>
+    <script src="https://kit.fontawesome.com/5aa42e6115.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home/home1.css">
+
 </head>
 <body>
-    
+    <header>
+        <div class="header-container">
+            <div class="logo">ShopEase</div>
+            <input type="text" placeholder="Search for Products, Brands and More" class="search-bar">
+            <div class="header-icons">
+                <button>Login</button>
+                <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        </div> 
+        
+    </header>
+    <div class="category-container">
+        <a href="./pages/grocery.html">
+        <div class="category">
+            <img src="./images/home-page/grocery.jpg" alt="Grocery">
+            <p>Grocery</p></a>
+        </div>
+       
+        <div class="category">
+            <a href="./pages/fashion.html">
+            <img src="./images/home-page/women's.jpg" alt="Fashion">
+            <p class="p1">Women's</p>
+            </a>
+        </div>
+        <div class="category">
+            <img src="./images/home-page/men's.jpg" alt="Fashion">
+            <p>Men's</p>
+        </div>
+        <div class="category">
+            <img src="./images/home-page/toys.jpg" alt="Toys">
+            <p>Toys</p>
+        </div>
+        <div class="category">
+            <img src="./images/home-page/mobile.jpg" alt="Mobiles">
+            <p>Mobiles</p>
+        </div>
+        <div class="category">
+            <img src="./images/home-page/watch.jpg" alt="Watch">
+            <p>Watchs</p>
+        </div>
+        <div class="category">
+            <img src="./images/home-page/electronics.jpg" alt="Electronics">
+            <p>Electronics</p>
+        </div>
+        <div class="category">
+            <a href="./pages/furnituree.html">
+            <img src="./images/home-page/furniture.jpg" alt="Furniture">
+            <p>Furniture</p></a>
+        </div>
+    </div>
+    <section class="hero-section">
+        <div class="content">
+          <h1>Discover and Find Your Own Fashion!</h1>
+          <p>Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
+          <a href="./pages/fashion.html"><button class="explore-button">Explore Now</button></a>
+        </div>
+        <div class="image-container">
+          <img src="./images/home-page/fashion1.avif" alt="Fashion Model">
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="modal"><br>
+                <div class="dialog-content">
+                    <div class="correct"><br>
+                <h3>ShopEase </h3>
+                </div><br>
+                <button class="Confirm" onclick="closeModel()">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="Cancel" onclick="closeModel()">Create Account</button>
+            </div>
+            </div>
+        </div>
+
+      </section>    
+      <main id="product-list"></main>
+
+    <script src="./javascript/home.js"></script>
+   
+    <script>
+        function sayHello(){
+         console.log("Hello");
+        }
+        function openModal(){
+        const overlayElement=document.getElementById('overlay');
+        overlayElement.style.display = 'flex';
+        }
+        console.log('A');
+        setTimeout(openModal, 5000);
+        console.log('B')
+
+    function closeModel(){
+        const overlayElement=document.getElementById('overlay');
+        overlayElement.style.display = "none";
+    }
+     </script>
 </body>
 </html>
