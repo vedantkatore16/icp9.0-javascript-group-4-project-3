@@ -88,3 +88,38 @@ span{
     border-radius:80px 80px 80px 80px;
     margin: 10px;
 }
+
+
+
+/* premium section */
+
+
+.premium-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.premium-box{
+    height: 350px;
+    width: 250px;
+}
+
+.premium-imgs{
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.primary-heading{
+    font-size: 20px;
+}
+
+.secondary-heading{
+    font-size: 24px;
+
+}
