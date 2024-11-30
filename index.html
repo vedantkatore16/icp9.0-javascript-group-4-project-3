@@ -89,10 +89,18 @@
         function sayHello(){
          console.log("Hello");
         }
- 
+        function openModal(){
+        const overlayElement=document.getElementById('overlay');
+        overlayElement.style.display = 'flex';
+        }
         console.log('A');
-        setTimeout(sayHello, 5000);
+        setTimeout(openModal, 5000);
         console.log('B')
+
+    function closeModel(){
+        const overlayElement=document.getElementById('overlay');
+        overlayElement.style.display = "none";
+    }
      </script>
 </body>
 </html>
