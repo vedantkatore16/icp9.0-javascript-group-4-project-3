@@ -93,10 +93,20 @@ span{
 
 /* premium section */
 
+.premium-heading{
+    width: 180px;
+    padding: 10px;
+    background-color: #1c471b;
+    color: white;
+
+}
 
 .premium-container{
     display: flex;
     justify-content: space-evenly;
+    margin: 30px  0;
+    background-color: #f8f3f3;
+    padding: 20px;
 }
 .premium-box{
     height: 350px;
