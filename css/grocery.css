@@ -53,10 +53,11 @@ button {
     cursor: pointer;
 }
 .cart-icon {
-    padding: 8px 12px;git
+    padding: 8px 12px;
     border-radius: 4px;
     cursor: pointer;
     width:40px;
+    
 }
 main {
     padding: 20px;
@@ -107,3 +108,5 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+
