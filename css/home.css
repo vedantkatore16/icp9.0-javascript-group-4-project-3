@@ -221,7 +221,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
    }
    .modal{
     background-color: #fff;
@@ -233,17 +232,23 @@ span{
    }
    .Cancel{
         background-color: red;
-        margin: 10px;
+        margin: 50px;
         cursor: pointer;
         border-radius: 5px;
+        padding: 10px;
+
     }
     .Confirm{
-        margin-left: 10px;
+        margin-left: 80px;
         cursor: pointer;
         border-radius: 5px;
+        padding: 10px;
     }
     .correct{
         background-color: aliceblue;
         height: 50px;
+        font-size: 35px;
         margin-top: -10px;
+        text-align: center;
+
     }
