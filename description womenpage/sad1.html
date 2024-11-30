@@ -25,9 +25,9 @@
           <span class="head">LOROFY</span>
           <p class="para"> Self Design Bollywood Net Saree  (Black)</p>
           <p class="para">Special price ₹299</p>
-          <div>
+          <div style=>
           <button class="btn">Add To Cart</button> 
-          <button class="btn" id="btn">Buy Now</button>
+          <button class="btn" id="btn" onclick="order()">Buy Now</button>
           </div>
           <div class="container-quality">
           <img src="../images/fashion-page/add.png" class="quality-icon" onclick="incre()"/>
@@ -43,12 +43,38 @@
           <p class="size">XL</p>
           <p class="size">XXL</p>
           <p class="rate">Rating :</p>
-          <img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(1)">
-          <img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(2)">
-          <img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(3)">
-          <img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(4)">
-          <img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(5)">
-    </div>
+
+          <div class="stars"> 
+            <i class="fa-solid fa-star active"></i>
+            <i class="fa-solid fa-star active"></i>
+            <i class="fa-solid fa-star " ></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+        </div>
+          </div>
+          </div>
+      <script src="https://kit.fontawesome.com/f80ec2f635.js" crossorigin="anonymous"></script>
     <script src="../javascript/script.js"></script>
+
+    <script>
+      function MoveImage(num){
+    const mainImage = document.getElementById('hello');
+      if(num == 1){
+        mainImage.src = "../images/fashion-page/sadi1.png";
+      }
+      else if(num == 2){
+        mainImage.src = "../images/fashion-page/sadi2.png";
+      }
+      else if(num == 3){
+        mainImage.src = "../images/fashion-page/sadi3.png";
+      }
+      else if(num == 4){
+        mainImage.src = "../images/fashion-page/sadi4.png";
+      }
+      else if(num == 5){
+        mainImage.src = "../images/fashion-page/sadi5.png";
+      }
+    }
+    </script>
 </body>
 </html>
