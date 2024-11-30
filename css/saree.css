@@ -147,6 +147,20 @@ span{
 .anker{
   text-decoration: none;
 }
+.stars{
+  position: relative;
+  bottom: 735px;
+}
+.stars i {
+ color: #e6e6e6;
+ font-size: 24px;
+ cursor: pointer;
+ transition: color 0.2s ease;
+}
+.stars i.active {
+  color: gold;
+}
+
 *{
   box-sizing: border-box;
 }
