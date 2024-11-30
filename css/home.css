@@ -59,7 +59,7 @@ button {
     margin-top: 30px;
     display: flex;
     gap: 40px;
-    margin-left: 20px;
+    margin-left: -10px;
 }
 
 .category {
@@ -207,3 +207,49 @@ span{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
+
+/* Dialog box*/
+.overlay{
+    background-color:rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   }
+   .modal{
+    background-color: #fff;
+    height:250px ;
+    width: 400px;
+   }
+   .dialog-content{
+    padding: 10px;
+   }
+   .Cancel{
+        background-color: red;
+        margin: 50px;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+    .Confirm{
+        margin-left: 80px;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .correct{
+        background-color: aliceblue;
+        height: 50px;
+        font-size: 35px;
+        margin-top: -10px;
+        text-align: center;
+
+    }
