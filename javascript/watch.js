@@ -1,4 +1,4 @@
-const images = ["./../images/watch-img/banner-img.webp", "./../images/watch-img/banner-img2.webp", "./../images/watch-img/banner-img3.webp", "./../images/watch-img/banner-img4.webp"];
+const images = ["./../images/watch-img/banner-img2.webp", "./../images/watch-img/banner-img.webp", "./../images/watch-img/banner-img3.webp", "./../images/watch-img/banner-img4.webp"];
 let index = 0;
 const slide = document.getElementById('slider');
 
