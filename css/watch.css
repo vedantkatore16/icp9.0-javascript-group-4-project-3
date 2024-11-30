@@ -104,6 +104,7 @@ span{
     padding: 10px;
     background-color: #1c471b;
     color: white;
+    margin: 20px 10px;
 
 }
 
@@ -142,14 +143,19 @@ span{
 
 /* banner-img slide show */
 
+
+.img-changer-container{
+    margin: 50px 0;
+}
 .banner-img{
     width: 100vw;
+    height: 470px;
 }
 
 .icon-action {
 height: 60px;
 position: absolute;
-top: 800px;
+top: 720px;
 cursor: pointer;
 transition: 0.5s;
 }
