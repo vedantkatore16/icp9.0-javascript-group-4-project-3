@@ -2,8 +2,8 @@ const products = [
     {
         "category": "",
         "items": [
-            { "name": "Helmet", "price": "From ₹699", "image": "./../images" },
-            { "name": "Trendy Kurtas", "price": "Under ₹499", "image": "../ima" }
+            { "name": "Helmet", "price": "From ₹699", "image": "../images/fashion-page/sadi1.png" },
+            { "name": "Trendy Kurtas", "price": "Under ₹499", "image": "../images/fashion-page/sadi1.png" }
 
         ]
     }
