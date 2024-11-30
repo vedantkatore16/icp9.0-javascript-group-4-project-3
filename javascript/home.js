@@ -2,8 +2,12 @@ const products = [
     {
         "category": "",
         "items": [
-            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "../images/fashion-page/sadi1.png" },
-            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "../images/fashion-page/sadi1.png" }
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
+            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/fashion-page/sadi5.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
+
 
         ]
     }
