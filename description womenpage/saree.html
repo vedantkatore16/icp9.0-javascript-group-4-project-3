@@ -19,7 +19,7 @@
         <img src="../images/fashion-page/saree2.png" alt="mobile" id="product_card" onclick="MoveImage(2)">
         <img src="../images/fashion-page/sarree3.png" alt="mobile" id="product_card" onclick="MoveImage(3)">
         <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(4)">
-        <img src="../images/fashion-page/saree1.png" alt="mobile" id="product_card" onclick="MoveImage(5)">     
+        <img src="../images/fashion-page/sarree5.png" alt="mobile" id="product_card" onclick="MoveImage(5)">     
 </div>
     <div class="cont_one">
       <span class="head">LOROFY</span>
@@ -27,7 +27,7 @@
       <p class="para">Special price ₹299</p>
       <div>
         <button class="btn">Add To Cart</button> 
-        <button class="btn" id="btn">Buy Now</button>
+        <button class="btn" id="btn" onclick="order()">Buy Now</button>
       </div>
       <div class="container-quality">
         
@@ -43,14 +43,19 @@
 <p class="size">L</p>
 <p class="size">XL</p>
 <p class="size">XXL</p>
-<p class="rate">Rating :</p>
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(1)">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(2)">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(3)">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(4)">
-<img src="../images/fashion-page/favorite.png" id="rate" onclick="rating(5)">
+<p class="rate">Rating :
+</p> <div class="rating-box">
+  <div class="stars"> 
+      <i class="fa-solid fa-star active"></i>
+      <i class="fa-solid fa-star active"></i>
+      <i class="fa-solid fa-star " ></i>
+      <i class="fa-solid fa-star "></i>
+      <i class="fa-solid fa-star "></i>
+  </div>
 </div>
 </div>
+    </div>
+<script src="https://kit.fontawesome.com/f80ec2f635.js" crossorigin="anonymous"></script>
 <script src="../javascript/script.js"></script>
 </body>
 </html>

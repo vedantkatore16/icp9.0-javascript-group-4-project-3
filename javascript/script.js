@@ -14,7 +14,7 @@ function MoveImage(num){
         mainImage.src = "../images/fashion-page/saree1.png";
       }
       else if(num == 5){
-        mainImage.src = "../images/fashion-page/saree1.png";
+        mainImage.src = "../images/fashion-page/sarree5.png";
       }
     }
     
@@ -30,9 +30,21 @@ function MoveImage(num){
             quantElement.innerText = --quantity;
         }
     }
-    function rating(num){
-    const rate = document.getElementById('rate');
-    if(num == 1){
-        rate.src = "../images/fashion-page/star.png";  
-    } 
-      } 
+
+    function order(){
+      alert('Your order is confirmed...');
+         }
+
+
+  const stars = document.querySelectorAll(".stars i");
+   stars.forEach((star, index1) => {
+    star.addEventListener("click", () => {
+    
+      stars.forEach((star,index2) => {
+        index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
+      });
+    });
+   });
+
+
+   
