@@ -1,18 +1,21 @@
 body{
     margin:0px;
-    padding:0px;
+    padding:5px 5px;
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+   
 }
 
 .signup-container{
     background-color: white;
     padding: 20px 20px;
     border-radius: 5px;
-    width: 300px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:20px 20px;
+  
 }
 
 h2 {
@@ -30,7 +33,7 @@ label {
 
 input{
     width: 91%;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
