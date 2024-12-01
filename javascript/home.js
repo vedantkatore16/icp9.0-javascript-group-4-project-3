@@ -1,15 +1,23 @@
 const products = [
     {
-        "category": "",
+        "category": " Women Ethnic Wear",
         "items": [
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi1.png" },
+            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/fashion-page/sadi2.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi3.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi4.png" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
-            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/fashion-page/sadi5.png" },
-            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
-            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
-            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
-
-
-        ]
+     ]
+    },
+    {
+    "category": " furniture",
+        "items": [
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/table5.jpg" },
+            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/furniture/study1.jpg" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/chair2.jpg" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/bed3.jpg" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1" },
+     ]
     }
 ];
 displayProducts()
