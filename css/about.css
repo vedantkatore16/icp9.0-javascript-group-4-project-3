@@ -36,6 +36,11 @@ body{
 
 }
 
+.team-card{
+    display: flex;
+    margin:15px 40px;
+}
+
 h1{
     text-align: center;
 }
@@ -43,7 +48,13 @@ h1{
 .card{
     height:400px;
     width: 300px;
-    background-color: tomato;
+    background-color:white;
+    margin-top:10px ;
+    margin-left: 60px;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .image-section img{
@@ -51,4 +62,13 @@ h1{
     width: 280px;
     border-radius: 25px 50px;
     margin:10px 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
 }
