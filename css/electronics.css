@@ -1,0 +1,75 @@
+.index-heading{
+    width: 180px;
+    padding: 10px;
+    background-color: #1c471b;
+    color: white;
+    margin: 20px 10px;
+
+}
+
+.index-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px  0;
+    background-color: #f8f3f3;
+    padding: 20px;
+}
+.index-box{
+    height: 350px;
+    width: 250px;
+}
+
+.index-imgs{
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.primary-heading{
+    font-size: 20px;
+}
+
+.secondary-heading{
+    font-size: 24px;
+
+}
+
+
+
+.img-changer-container{
+    margin: 50px 0;
+}
+.banner-img{
+    width: 100vw;
+    height: 470px;
+}
+
+.icon-action {
+height: 60px;
+position: absolute;
+top: 720px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.icon-left {
+left: 0;
+}
+
+.icon-left:hover {
+transform: scale(0.8) translateX(-10px);
+}
+
+.icon-right {
+right: 0;
+}
+
+.icon-right:hover {
+transform: scale(0.8) translateX(10px);
+}
