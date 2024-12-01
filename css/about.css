@@ -1,10 +1,23 @@
 body{
     background-color: #f4f4f4;
 }
+
+#About-nav{
+    height:50px;
+    width:100%;
+    align-content: center;
+    margin-left:60%;
+    text-decoration: none;
+   
+}
+
+.About-nav{
+    margin-left:50px ;
+}
 .container {
     margin: 50px auto;
     padding: 0 15px;
-    background-image :url("./../images/abuot.html/greydot1.avif");
+    background-image :url("./../images/abuot/greydot1.avif");
     height:fit-content;
 }
 
@@ -71,4 +84,35 @@ h2{
 p{
     font-size: 20px;
     text-align: center;
+}
+
+/* ethics page style */
+
+.Overview-container{
+    margin:20px auto;
+
+}
+
+.hero img {
+    width: 250px;
+    height: fit-content;
+    border-radius: 100px;
+    margin-left: 40px;
+}
+
+.Overview-Text{
+    text-align: start;
+    margin-left: 40px;
+}
+
+.overview-img{
+    height: 300px;
+    width: fit-content;
+    margin-right:50px;
+
+}
+.overview-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
