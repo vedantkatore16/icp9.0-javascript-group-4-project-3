@@ -106,7 +106,13 @@ p{
 }
 
 .overview-img{
-    height:fit-content;
-    width:auto;
-    
+    height: 300px;
+    width: 250px;
+    margin-right:50px;
+
+}
+.overview-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
