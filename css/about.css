@@ -35,3 +35,20 @@ body{
     margin-bottom: 20px;
 
 }
+
+h1{
+    text-align: center;
+}
+
+.card{
+    height:400px;
+    width: 300px;
+    background-color: tomato;
+}
+
+.image-section img{
+    height :220px;
+    width: 280px;
+    border-radius: 25px 50px;
+    margin:10px 10px;
+}
