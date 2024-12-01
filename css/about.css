@@ -107,7 +107,7 @@ p{
 
 .overview-img{
     height: 300px;
-    width: 250px;
+    width: fit-content;
     margin-right:50px;
 
 }
