@@ -1,5 +1,6 @@
 .head{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
 }
 .box{
     height: 510px;
@@ -78,7 +79,7 @@ span{
     background-color:rgb(251, 248, 242);
     margin: 0;
     padding: 0;
-    margin-top: -10px;
+   
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -96,7 +97,7 @@ body{
     margin: 0;
 }
 .img-changer-container{
-    margin: 50px 0;
+    margin: 30px 0;
 }
 .banner-img{
     width: 100vw;
