@@ -9,7 +9,6 @@
     background-color: rgba(248, 242, 242, 0.934);
     box-shadow:  2px 15px 12px 6px #ffffe6;
     margin: 20px;
-
 }
 .box:hover{
     box-shadow:  2px 2px 2px 2px #d5d5d1;
@@ -72,6 +71,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .logo{
     display: flex;
@@ -79,7 +79,6 @@ span{
     background-color:rgb(251, 248, 242);
     margin: 0;
     padding: 0;
-   
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -127,6 +126,7 @@ right: 0;
 .icon-right:hover {
 transform: scale(0.8) translateX(10px);
 }
+
 
 /** ***** end */
 

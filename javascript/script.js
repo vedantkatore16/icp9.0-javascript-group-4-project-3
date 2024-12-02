@@ -67,10 +67,11 @@ function MoveImage(num){
   }
    
 
-  const images = ["../images/fashion-page/SSB2.jpg",
+  let images = ["../images/fashion-page/SSB2.jpg",
      "../images/fashion-page/SSB7.jpg", 
      "../images/fashion-page/SSB4.jpg",
-      "../images/fashion-page/SSB5.jpg"];
+      "../images/fashion-page/SSB5.jpg",
+    ];
 let index = 0;
 const slide = document.getElementById('slider');
 
@@ -95,3 +96,6 @@ function backward() {
     }
     slide.src = images[index]
 }
+
+
+
