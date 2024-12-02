@@ -125,6 +125,7 @@ p{
     height: 400px;
     background-color: #0066ff;
     align-content: center;
+    padding: 20px 20px;
 }
 
 #ShopEasy-group-img{
@@ -138,11 +139,26 @@ p{
 
 #ShopEasy-group-para{
     margin-left: 60px;
-    align-content: center;
+    margin-right: 20px;
+    align-items: center;
     font-size: 25px;
+    color:white;
 }
 
 h1{
     color: yellow;
     text-align: center;
+}
+
+#Aboutus-button{
+    height:50px;
+    width:120px;
+    margin:50px 300px;
+    border-radius: 5px ;
+    border: white 2px solid;
+    color: white;
+    background-color: #0066ff ;
+    font-size: 20px;
+    cursor:pointer;
+
 }
