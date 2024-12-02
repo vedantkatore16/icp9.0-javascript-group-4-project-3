@@ -16,7 +16,7 @@ body{
     margin-left:50px ;
 }
 .container {
-    margin: 50px auto;
+    margin: 5px auto;
     padding: 0 15px;
     background-image :url("./../images/abuot/greydot1.avif");
     height:fit-content;
