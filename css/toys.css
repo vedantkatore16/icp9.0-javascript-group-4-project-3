@@ -1,13 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* product -card */
 .head{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .box{
-    height: 510px;
+    height: 480px;
     width: 310px;
     border: none;
     background-color: rgba(248, 242, 242, 0.934);
     box-shadow:  2px 15px 12px 6px #ffffe6;
     margin: 20px;
+    padding: 10px;
 
 }
 .box:hover{
@@ -31,6 +39,7 @@
 span{
     margin-right: 220px;
     color: cadetblue;
+
 }
 #quantity{
    position: relative;
@@ -86,15 +95,92 @@ span{
     border-radius:80px 80px 80px 80px;
     margin: 10px;
 }
-a{
-    text-decoration: none;
-}
-@media screen and (max-width: 200px) {
-    .container{
-        display:inline;
-    }
-    .logo{
-        display:inline;
-    }
+
+/*  *******         end     ****    */
+
+/* premium section */
+
+.premium-heading{
+    width: 180px;
+    padding: 10px;
+    background-color: #1c471b;
+    color: white;
+    margin: 20px 10px;
+
 }
 
+.premium-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px  0;
+    background-color: #f8f3f3;
+    padding: 20px;
+}
+.premium-box{
+    height: 350px;
+    width: 250px;
+}
+
+.premium-imgs{
+    height: 250px;
+    width: 220px;
+    display: block;
+    margin: 5px auto;
+    padding: 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.primary-heading{
+    font-size: 20px;
+}
+
+.secondary-heading{
+    font-size: 24px;
+
+}
+
+
+/* ********* end  ********* */
+
+
+
+
+/* banner-img slide show */
+
+
+.img-changer-container{
+    margin: 50px 0;
+}
+.banner-img{
+    width: 100vw;
+    height: 470px;
+}
+
+.icon-action {
+height: 60px;
+position: absolute;
+top: 720px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.icon-left {
+left: 0;
+}
+
+.icon-left:hover {
+transform: scale(0.8) translateX(-10px);
+}
+
+.icon-right {
+right: 0;
+}
+
+.icon-right:hover {
+transform: scale(0.8) translateX(10px);
+}
+
+/** ***** end */
