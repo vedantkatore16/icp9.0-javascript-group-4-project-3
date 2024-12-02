@@ -211,4 +211,22 @@ p{
     color: black;
 }
 
+/*Sustainability-container*/
 
+#Sustainability-container{
+    height: fit-content;
+    background-color: #e6f7ff;
+}
+
+#Sustainability-container img{
+    height:400px;
+    width: 450px;
+    margin-left:450px;
+
+}
+
+#Sustainability-container p{
+    text-align: center;
+    margin:10px 70px;
+    font-size: 23px;
+}
