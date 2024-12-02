@@ -183,7 +183,7 @@ p{
 #Ethic-button{
     height:50px;
     width:120px;
-    margin:40px 550px;
+    margin:20px 550px;
     border-radius: 5px ;
     border: white 2px solid;
     color: white;
@@ -192,3 +192,23 @@ p{
     font-size: 16px;
     padding: 10px 10px;
 }
+
+/*  */
+
+#ShopEasy-group-technology{
+    display:flex;
+    width:97%;
+    height: 400px;
+    align-content: center;
+    padding: 20px 20px;
+}
+
+#ShopEasy-group-technology h3{
+    text-align: center;
+}
+
+#ShopEasy-group-technology p{
+    color: black;
+}
+
+
