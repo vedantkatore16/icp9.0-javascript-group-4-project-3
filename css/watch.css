@@ -35,8 +35,10 @@
   text-align: center;
   color: black;
   font-weight: 900;
+  margin-top: 28px;
 }
 span{
+  
     margin-right: 220px;
     color: cadetblue;
 
@@ -67,7 +69,7 @@ span{
     border: none;
     background-color: green;
     position: relative;
-    bottom: 35px;
+    bottom: 25px;
     left: 20px;
     padding-left: 20px;
     padding-top: 5px;
@@ -81,20 +83,7 @@ span{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.logo{
-    display: flex;
-    justify-content: space-around;
-    background-color:rgb(251, 248, 242);
-    margin: 0;
-    padding: 0;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.logoo{
-    border-radius:80px 80px 80px 80px;
-    margin: 10px;
-}
+
 
 /*  *******         end     ****    */
 
