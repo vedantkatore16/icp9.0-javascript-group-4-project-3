@@ -327,3 +327,54 @@ footer {
 .footer-bottom p {
     margin: 5px 0;
 }
+
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .footer-content {
+        padding: 0 20px;
+        flex-direction: column; 
+    }
+
+    .footer-section {
+        padding: 20px 0; 
+        text-align: center;
+        min-width: 280px;
+    }
+
+    .footer-section h2, .footer-section h3 {
+        font-size: 1.4em; 
+    }
+
+    .social-links {
+        justify-content: center; 
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+    }
+    .content h1 {
+        font-size: 2rem;
+        color: #1c471b;
+        margin-bottom: 1rem;
+      }
+}
+
+
+@media (max-width: 480px) {
+    .footer-section h2, .footer-section h3 {
+        font-size: 1.2em;
+    }
+
+    .footer-section ul li {
+        margin: 5px 0;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+}
+
+
+
+
