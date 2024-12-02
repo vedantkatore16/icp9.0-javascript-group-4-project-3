@@ -3,6 +3,7 @@
     height: 610px;
     width: 1000px;
     border: none;
+    object-fit: cover;
     background-color: rgba(248, 242, 242, 0.934);
     box-shadow:  2px 15px 12px 4px #ffffe6;
     box-shadow:  2px 2px 2px 2px #d5d5d1;
@@ -138,6 +139,7 @@ span{
 }
 .head-call{
   color: black;
+  margin-left: 30px;
 }
 .emoji{
   position: relative;
@@ -160,6 +162,111 @@ span{
 .stars i.active {
   color: gold;
 }
-*{
+body{
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+.footer-section .about{
+  color: #ddd;
+  margin-top: 30px;
+
+}
+
+.footer-section h2,
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  background-color: #444;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.social-icon:hover {
+  background-color: #555;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+}
+div{
+  object-fit: cover;
   box-sizing: border-box;
+  
+}
+
+
+/** ***** end */
+
+@media screen and (max-width: 300px) {
+  .container{
+      display:inline-block;
+  }
+  
+  .banner-img{
+      width: 400px;
+  }
+  .icon-action{
+      position: fixed;
+      top: 500px;
+      height: 60px;
+     cursor: pointer;
+     transition: 0.5s;
+  }
+ 
 }
