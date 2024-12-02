@@ -1,6 +1,7 @@
 # ShopEase
 
 Shopease is an innovative e-commerce platform designed to simplify online shopping by offering a smooth, user-friendly experience. Whether you’re looking for the latest fashion trends, electronics, home essentials, or more, Shopease brings the best products to your fingertips with an intuitive interface and seamless checkout process.
+<br>
 Shopease is an online shopping platform offering a variety of products with a simple and intuitive interface. It provides features such as product browsing, a shopping cart, and user authentication (to be implemented).
 
 ## Features
@@ -12,9 +13,5 @@ Shopease is an online shopping platform offering a variety of products with a si
 # HomePage
 ![ShopEase Homepage](./images/home-page/home.png)
 
-
-## License
-
-Shopease is open-source and available under the [MIT License](LICENSE).
 
 
