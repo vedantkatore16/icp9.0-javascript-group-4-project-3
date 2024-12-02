@@ -1,0 +1,150 @@
+/* General Styling */
+.head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    height: 510px;
+    width: 310px;
+    border: none;
+    background-color: rgba(248, 242, 242, 0.934);
+    box-shadow: 2px 15px 12px 6px #ffffe6;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.box:hover {
+    box-shadow: 2px 2px 2px 2px #d5d5d1;
+    border-radius: 20px;
+}
+
+.imge {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    transition: transform 1s;
+}
+.imge:hover {
+    transform: scale(0.8);
+}
+
+.text {
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+
+span {
+    margin-right: 220px;
+    color: cadetblue;
+}
+
+#quantity {
+    position: relative;
+    left: 110px;
+    bottom: 5px;
+    color: rgb(5, 2, 24);
+    font-weight: 900;
+}
+
+.quality-icon {
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+
+.quality-icon_1 {
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+}
+
+.rated {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.val {
+    font-size: 25px;
+    margin-left: 130px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Align items at the center */
+    gap: 20px; /* Consistent spacing between boxes */
+}
+
+.logo {
+    display: flex;
+    justify-content: center; /* Center logo items */
+    flex-wrap: wrap;
+    background-color: rgb(251, 248, 242);
+    margin: 0;
+    padding: 10px 0;
+}
+
+.logoo {
+    border-radius: 50%;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+
+/* Tablet View */
+@media screen and (max-width: 768px) {
+    .box {
+        width: calc(50% - 40px); /* Two items per row */
+    }
+    .imge {
+        left: 0;
+    }
+    .val {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width: 480px) {
+    .box {
+        width: 100%; /* Full width on small screens */
+    }
+    .val {
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+    .rated {
+        left: 0;
+        margin: 0 auto;
+    }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 320px) {
+    .logo {
+        flex-direction: column;
+    }
+    .logoo {
+        width: 60px;
+        height: 60px;
+    }
+}
