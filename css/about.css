@@ -163,3 +163,19 @@ p{
     cursor:pointer;
 
 }
+
+/*Ethics & Compliance*/
+
+#EthicsHeading{
+    font-size: 40px;
+}
+
+#Ethics-img{
+    margin:10px 300px;
+}
+
+#Ethics p{
+    text-align: center;
+    margin:0px 70px;
+    font-size: 25px;
+}
