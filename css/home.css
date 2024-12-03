@@ -681,7 +681,6 @@ h2 {
 }
 
 label {
-    left: -30px;
     display: block;
     margin-bottom: 5px;
 }
@@ -709,11 +708,10 @@ button:hover{
 }
 
 .captcha-group{
-    width: 280px;
+    width: 320px;
     display: flex;
     height: 40px;
-    margin-left: 10px;
-    margin-top: 50px;
+    margin-left: 30px;
 }
 #captcha{
     margin-left: 10px;
@@ -723,6 +721,6 @@ button:hover{
 }
 #c1{
     margin:10px;
-    margin-top: 200px;
+    margin-top: 170px;
 
 }

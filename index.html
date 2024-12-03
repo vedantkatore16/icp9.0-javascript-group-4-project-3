@@ -209,6 +209,16 @@ closeBtn.addEventListener('click', () => {
 });
 
 
+function captcha(){
+       const min=10001;
+        const max=70001;
+        const Num=Math.floor(Math.random()*(max-min))+min;
+        document.getElementById("captcha1").value=Num;
+
+
+ }
+
+
        
 
 
