@@ -57,3 +57,17 @@
     height: auto;
     border-radius: 5px;
 }
+
+.rated{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin-left: 36px;
+}
