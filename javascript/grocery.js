@@ -10,19 +10,19 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
 function MoveImage(num){
     const mainImage = document.getElementById('main');
       if(num == 1){
-        mainImage.src = "../../images/fashion-page/saree1.png";
+        mainImage.src = "../../images/grocery-page/bringle1.png";
       }
       else if(num == 2){
-        mainImage.src = "../../images/fashion-page/saree2.png";
+        mainImage.src = "../../images/grocery-page/bringle2.png";
       }
       else if(num == 3){
-        mainImage.src = "../../images/fashion-page/sarree3.png";
+        mainImage.src = "../../images/grocery-page/bringle3.png";
       }
       else if(num == 4){
-        mainImage.src = "../../images/fashion-page/saree1.png";
+        mainImage.src = "../../images/grocery-page/bringle5.png";
       }
       else if(num == 5){
-        mainImage.src = "../../images/fashion-page/sarree5.png";
+        mainImage.src = "../../images/grocery-page/bringle6.png";
       }
     }
     
@@ -75,10 +75,10 @@ function MoveImage(num){
   }
    
 
-  const images = ["../images/grocery-page/vegetable11.png",
+  const images = ["../images/grocery-page/vegetable33.png",
      "../images/grocery-page/dairy11.png", 
      "../images/grocery-page/vegetable12.png",
-      "../images/grocery-page/vegetable13.png"];
+      "../images/grocery-page/vegetable22.png"];
 let index = 0;
 const slide = document.getElementById('slider');
 
