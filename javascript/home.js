@@ -13,10 +13,10 @@ const products = [
     "category": " furniture",
         "items": [
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/table5.jpg" },
-            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/furniture/study1.jpg" },
+            { "name": "Beyond the Match: A Neon Floral Georgette Saree", "price": "Under ₹499", "image": "./images/furniture/studyTable.jpg" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/chair2.jpg" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/bed3.jpg" },
-            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1.jpg" },
      ]
     }
 ];
@@ -43,3 +43,5 @@ function displayProducts() {
         });
     });
 }
+
+
