@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Womens prodcts</title>
     <link rel="stylesheet" href="../../css/fashion.css">
+    <script src="https://kit.fontawesome.com/5aa42e6115.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <p class="logo"><a href="../../pages/fashion.html">
+    <header>
+        <div class="header-container">
+            <div class="logo">ShopEase</div>
+            <input type="text" placeholder="Search for Products, Brands and More" class="search-bar">
+            <div class="header-icons">
+                <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        </div> 
+    </header>
+    <p class="logoe"><a href="../../pages/fashion.html">
         <img src="../../images/fashion-page/sareelogo.png" alt="" style="height: 120px;" class="logoo"></a>
         <a href="../../pages/womens/dresswear.html">
         <img src="../../images/fashion-page/dresslogo.png" alt="" style="height: 120px; width: 100px;" class="logoo"></a>
         <a href="../../pages/womens/footwear.html">
         <img src="../../images/fashion-page/footwearlogo.png" alt="" style="height: 120px;" class="logoo" width="100px"></a></p>
+        <br>
     <h2 class="head">Women's Foot Wear</h2>
+    <div class="slider">
+    <div class="img-changer-container" class="slides">
+        <img src="../../images/fashion-page/footslide2.jpg" class="banner-img" id="slider">
+            <img src="../../images/watch-img/left-arroww.png" class="icon-action icon-left" onclick="backward()" />
+            <img src="../../images/watch-img/right-arrow.png" class="icon-action icon-right" onclick="forward()" />
+    </div></div>
+    </div>
     <div class="container"> 
          <div class="box" style="height: 440px;" >
             <a href="../../pages/womens/foot.html">
@@ -77,8 +95,49 @@
     Casual women Sandals In Peach And grey Colour Special price<br><span class="val">₹300</span>  </p></a>
     <p class="rated"> 3.8⭐</p>
 </div>
-
     </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>ShopEase</h2>
+                <p>Your one-stop shop for everything you need. From fashion to electronics, we offer the best deals just for you.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../pages/AboutUs.html">AboutUs</a></li>
+                    <li><a href="../pages/mens.html">Men's Clothing</a></li>
+                    <li><a href="#">Women's Fashion</a></li>
+                    <li><a href=".././pages/electronics.html">Electronics</a></li>
+                    <li><a href="../pages/furnituree.html">Home & Kitchen</a></li>
+                    <li><a href="../pages/grocery.html">Grocery</a></li>
+                    <li><a href="../pages/toys.html">Toys</a></li>
+                    <li><a href="../index.html">Mobile</a></li>
+                    <li><a href="../pages/watch.html">Watches</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="mailto:support@shopeasy.com">support@shopeasy.com</a></li>
+                    <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                </ul><br><br>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shopeasy | All Rights Reserved</p>
+            <p>Privacy Policy | Terms & Conditions | Cookie Policy</p>
+        </div>
+    </footer>
     <script src="../../javascript/script.js"></script>
 </body>
 </html>
