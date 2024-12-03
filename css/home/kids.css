@@ -15,3 +15,21 @@
     width:fit-content;
     height:400px;
 }
+
+.symbols{
+    height: 60px;
+    position: absolute;
+    top:40%;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+.less-sym{
+    left:0;
+    
+}
+
+.greater-sym{
+    right:0;
+    
+}
