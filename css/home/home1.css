@@ -45,3 +45,8 @@ main {
     color: #555;
     margin: 0.5em 0;
 }
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
