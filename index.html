@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopEase</title>
     <script src="https://kit.fontawesome.com/5aa42e6115.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/home/home1.css">
+        <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home1.css">
 
 </head>
 <body>
@@ -15,11 +15,32 @@
             <div class="logo">ShopEase</div>
             <input type="text" placeholder="Search for Products, Brands and More" class="search-bar">
             <div class="header-icons">
-                <button>Login</button>
+                <button class="b1">Login</button>
                 <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="hamburger" id="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+
             </div>
         </div> 
-        
+        <div class="sidebar" id="sidebar">
+            <i class="fa-solid fa-xmark" id="close-btn"></i>
+            <div class="sidebar-content">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="./pages/login.html" id="login-btn-sidebar">Login</a></li>
+                    <li><a href="./pages/signup.html" id="login-btn-sidebar">Sign up</a></li>
+                    <li><a href="./pages/grocery.html">Grocery</a></li>
+                    <li><a href="./pages/fashion.html">Women's Fashion</a></li>
+                    <li><a href="./pages/mens.html">Men's Fashion</a></li>
+                    <li><a href="./pages/toys.html">Toys</a></li>
+                    <li><a href="./pages/mobile.html">Mobiles</a></li>
+                    <li><a href="./pages/watch.html">Watches</a></li>
+                    <li><a href="./pages/electronics.html">Electronics</a></li>
+                    <li><a href="./pages/furnituree.html">Furniture</a></li>
+
+                </ul>
+            </div>
+        </div>
+    
     </header>
     <div class="category-container">
         <a href="./pages/grocery.html">
@@ -35,24 +56,28 @@
             </a>
         </div>
         <div class="category">
+            <a href="./pages/mens.html">
             <img src="./images/home-page/men's.jpg" alt="Fashion">
-            <p>Men's</p>
+            <p>Men's</p></a>
         </div>
         <div class="category">
+            <a href="./pages/toys.html">
             <img src="./images/home-page/toys.jpg" alt="Toys">
-            <p>Toys</p>
+            <p>Toys</p></a>
         </div>
         <div class="category">
             <img src="./images/home-page/mobile.jpg" alt="Mobiles">
             <p>Mobiles</p>
         </div>
         <div class="category">
+            <a href="./pages/watch.html">
             <img src="./images/home-page/watch.jpg" alt="Watch">
-            <p>Watchs</p>
+            <p>Watches</p></a>
         </div>
         <div class="category">
+            <a href="./pages/electronics.html">
             <img src="./images/home-page/electronics.jpg" alt="Electronics">
-            <p>Electronics</p>
+            <p>Electronics</p></a>
         </div>
         <div class="category">
             <a href="./pages/furnituree.html">
@@ -75,15 +100,76 @@
                 <div class="dialog-content">
                     <div class="correct"><br>
                 <h3>ShopEase </h3>
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <label for="captcha1" id="c1">Captcha:</label>
+            <div class="captcha-group">
+                <input type="text" id="captcha1" placeholder="11111" required>
+                <label for="captcha"></label>
+                <input type="text" id="captcha" placeholder="Enter captcha" required>
+                <i class="fa-solid fa-arrows-rotate" id="refresh" onclick="captcha()"></i>
+         </div>
                 </div><br>
-                <button class="Confirm" onclick="closeModel()">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;
-                <button class="Cancel" onclick="closeModel()">Create Account</button>
+                <button class="Cancel" onclick="closeModel()">Login</button>
+              <p class="signup">No account? <a href="./pages/signup.html">Sign up</a></p>
             </div>
             </div>
         </div>
 
       </section>    
       <main id="product-list"></main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>ShopEase</h2>
+                <p>Your one-stop shop for everything you need. From fashion to electronics, we offer the best deals just for you.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./pages/AboutUs.html" class="about">About Us</a></li>
+                    <li><a href="./pages/mens.html">Men's Clothing</a></li>
+                    <li><a href="./pages/fashion.html">Women's Fashion</a></li>
+                    <li><a href="./pages/electronics.html">Electronics</a></li>
+                    <li><a href="./pages/furnituree.html">Home & Kitchen</a></li>
+                    <li><a href="./pages/grocery.html">Grocery</a></li>
+                    <li><a href="./pages/toys.html">Toys</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="./pages/watch.html">Watches</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="mailto:support@shopeasy.com">support@shopeasy.com</a></li>
+                    <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.flipkart.com/" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Shopeasy | All Rights Reserved</p>
+            <p>Privacy Policy | Terms & Conditions | Cookie Policy</p>
+        </div>
+    </footer>
+
+
+
+
 
     <script src="./javascript/home.js"></script>
    
@@ -103,6 +189,37 @@
         const overlayElement=document.getElementById('overlay');
         overlayElement.style.display = "none";
     }
+
+
+
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+const sidebar = document.getElementById('sidebar');
+const closeBtn = document.getElementById('close-btn');
+
+// Open sidebar
+hamburgerMenu.addEventListener('click', () => {
+    sidebar.classList.add('open');
+});
+
+// Close sidebar
+closeBtn.addEventListener('click', () => {
+    sidebar.classList.remove('open');
+});
+
+
+function captcha(){
+       const min=10001;
+        const max=70001;
+        const Num=Math.floor(Math.random()*(max-min))+min;
+        document.getElementById("captcha1").value=Num;
+
+
+ }
+
+
+       
+
+
      </script>
 </body>
 </html>
