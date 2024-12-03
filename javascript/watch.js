@@ -47,6 +47,26 @@ function MoveImage(num){
         mainImage.src = "../../images/watch-img/watch-1.webp";
       }
     }
+
+    function MoveImage1(num){
+      const mainImage = document.getElementById('main');
+        if(num == 1){
+          mainImage.src = "../../images/watch-img/watch-2.webp";
+        }
+        else if(num == 2){
+          mainImage.src = "../../images/watch-img/watch-2.0.webp";
+        }
+        else if(num == 3){
+          mainImage.src = "../../images/watch-img/watch-2.1.webp";
+        }
+        else if(num == 4){
+          mainImage.src = "../../images/watch-img/watch-2.2.webp";
+        }
+        else if(num == 5){
+          mainImage.src = "../../images/watch-img/watch-2.3.webp";
+        }
+      }
+
     
     const quantElement = document.getElementById('quantity'); 
     
