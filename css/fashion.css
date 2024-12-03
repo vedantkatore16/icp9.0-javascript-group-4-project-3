@@ -92,6 +92,7 @@ body{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    overflow-x: hidden;
    
 }
 .img-changer-container{
@@ -239,6 +240,9 @@ button {
 }
 
 @media (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
     /* Adjust header */
     header {
         padding: 10px;
@@ -281,14 +285,18 @@ button {
     }
 
     .imge {
-        width: 100%; /* Make images scale properly */
+        width: 90%; /* Make images scale properly */
         max-height: 500px;
         object-fit: cover;
     }
 
     .text {
-        font-size: 20px; /* Reduce font size for product descriptions */
+        font-size: 22px; /* Reduce font size for product descriptions */
     }
+    #textnew{
+        height: 3800px;
+    }
+   
 
     .val {
         font-size: 26px; /* Adjust price font size */
