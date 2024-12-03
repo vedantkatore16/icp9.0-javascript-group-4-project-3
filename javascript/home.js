@@ -7,6 +7,8 @@ const products = [
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi3.png" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi4.png" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/fashion-page/sadi5.png" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1.jpg" },
+
      ]
     },
     {
@@ -17,15 +19,17 @@ const products = [
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/chair2.jpg" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/bed3.jpg" },
             { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1.jpg" },
+            { "name": "Self Design Bollywood Net Saree", "price": "From ₹699", "image": "./images/furniture/temple1.jpg" },
+
      ]
     }
 ];
-displayProducts()
 function displayProducts() {
     const productList = document.getElementById("product-list");
 
     products.forEach(category => {
         const categoryTitle = document.createElement("h2");
+        categoryTitle.classList.add("category-title");
         categoryTitle.textContent = category.category;
         productList.appendChild(categoryTitle);
 
@@ -44,4 +48,4 @@ function displayProducts() {
     });
 }
 
-
+displayProducts()
