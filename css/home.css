@@ -549,7 +549,9 @@ button:hover{
 }
 
 
-
+#close-btn{
+    right: 110px;
+}
 
 
 /* Mobile Styles */
