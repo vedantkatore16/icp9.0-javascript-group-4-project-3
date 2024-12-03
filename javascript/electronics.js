@@ -1,4 +1,5 @@
-const images = ["./../images/electronics-page-img/banner-2.png", "./../images/electronics-img/banner-3.jpg"];
+const images = ["./../images/electronics/disscount.jpg", "./../images/electronics/buds.jpg"];
+
 let index = 0;
 const slide = document.getElementById('slider');
 
@@ -24,3 +25,4 @@ function backward() {
     slide.src = images[index]
 }ute("src",fileName)
   
+   
