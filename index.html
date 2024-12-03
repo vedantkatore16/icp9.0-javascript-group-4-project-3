@@ -17,9 +17,28 @@
             <div class="header-icons">
                 <button>Login</button>
                 <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="hamburger" id="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+
             </div>
         </div> 
-        
+        <div class="sidebar" id="sidebar">
+            <button id="close-btn">Close</button>
+            <div class="sidebar-content">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="./pages/grocery.html">Grocery</a></li>
+                    <li><a href="./pages/fashion.html">Women's Fashion</a></li>
+                    <li><a href="./pages/mens.html">Men's Fashion</a></li>
+                    <li><a href="./pages/toys.html">Toys</a></li>
+                    <li><a href="./pages/mobile.html">Mobiles</a></li>
+                    <li><a href="./pages/watch.html">Watches</a></li>
+                    <li><a href="./pages/electronics.html">Electronics</a></li>
+                    <li><a href="./pages/furnituree.html">Furniture</a></li>
+                </ul>
+                <button id="login-btn-sidebar">Login</button>
+            </div>
+        </div>
+    
     </header>
     <div class="category-container">
         <a href="./pages/grocery.html">
@@ -84,6 +103,9 @@
                     <input type="text" id="username" required>
                 </div>
                 </div><br>
+                <button class="Cancel" onclick="closeModel()">Cancel</button>
+
+
             </div>
             </div>
         </div>
@@ -156,6 +178,27 @@
         const overlayElement=document.getElementById('overlay');
         overlayElement.style.display = "none";
     }
+
+
+
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+const sidebar = document.getElementById('sidebar');
+const closeBtn = document.getElementById('close-btn');
+
+// Open sidebar
+hamburgerMenu.addEventListener('click', () => {
+    sidebar.classList.add('open');
+});
+
+// Close sidebar
+closeBtn.addEventListener('click', () => {
+    sidebar.classList.remove('open');
+});
+
+
+       
+
+
      </script>
 </body>
 </html>
