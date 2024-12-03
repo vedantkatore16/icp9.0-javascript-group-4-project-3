@@ -48,7 +48,7 @@ span{
 }
 .btn{
     position: absolute;
-    bottom: 240px;
+    bottom: 180px;
     right: 505px;
     background-color: orange;
     padding: 15px;
@@ -166,6 +166,7 @@ body{
   margin: 0;
   margin-left: 0;
   margin-right: 0;
+  height: 100%;
 }
 
 footer {
@@ -175,6 +176,7 @@ footer {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 0;
 }
 
 .footer-content {
@@ -244,18 +246,127 @@ footer {
 .footer-bottom p {
   margin: 5px 0;
 }
-div{
-  object-fit: cover;
-  box-sizing: border-box;
+header {
+  margin-top: -8px;
+  background-color:#2874f0;
+  padding: 20px;
+  color: white;
+ 
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+ 
   
+  
+  
+}
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #ff9f00;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-icon {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width:40px;
+}
+/** ***** end */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .footer-content {
+      padding: 0 20px;
+      flex-direction: column; 
+  }
+
+  .footer-section {
+      padding: 20px 0; 
+      text-align: center;
+      min-width: 280px;
+  }
+
+  .footer-section h2, .footer-section h3 {
+      font-size: 1.4em; 
+  }
+
+  .social-links {
+      justify-content: center; 
+  }
+
+  .footer-bottom {
+      padding: 10px 0;
+  }
+  .content h1 {
+      font-size: 2rem;
+      color: #1c471b;
+      margin-bottom: 1rem;
+    }
 }
 
 
-/** ***** end */
+@media (max-width: 480px) {
+  .footer-section h2, .footer-section h3 {
+      font-size: 1.2em;
+  }
+
+  .footer-section ul li {
+      margin: 5px 0;
+  }
+
+  .social-links {
+      gap: 10px;
+  }
+}
 
 @media screen and (max-width: 300px) {
   .container{
       display:inline-block;
+  }
+  .btn{
+    position: absolute;
+    bottom: 240px;
+    right: 550px;
+    background-color: orange;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box{
+  margin: 20px auto;
+  height: 610px;
+  width: 1000px;
+  border: none;
+  object-fit: cover;
+  background-color: rgba(248, 242, 242, 0.934);
+  box-shadow:  2px 15px 12px 4px #ffffe6;
+  box-shadow:  2px 2px 2px 2px #d5d5d1;
+  border-radius: 20px;
   }
   
   .banner-img{
