@@ -175,7 +175,7 @@ transform: scale(0.8) translateX(10px);
 /** ***** end */
 
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 801px) {
 
     /** premium section */
     .premium-heading{
