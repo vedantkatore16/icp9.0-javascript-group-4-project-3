@@ -51,7 +51,7 @@ function MoveImage(num){
     function MoveImage1(num){
       const mainImage = document.getElementById('main');
         if(num == 1){
-          mainImage.src = "../../images/watch-img/watch-2.webp";
+          mainImage.src = "https://m.media-amazon.com/images/I/61FcqvW8+wL._SX679_.jpg";
         }
         else if(num == 2){
           mainImage.src = "../../images/watch-img/watch-2.0.webp";
