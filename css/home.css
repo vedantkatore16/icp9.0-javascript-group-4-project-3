@@ -503,7 +503,7 @@ button:hover{
 
 
 .hamburger {
-    display: none;
+    display:none;
     cursor: pointer;
     font-size: 28px;
     color: white;
@@ -640,7 +640,7 @@ button:hover{
 /* Tablet, Laptop and Larger Screens Styles */
 @media (min-width: 769px) {
     .hamburger {
-        display: none;  /* Hide the hamburger on larger screens */
+        display:none;  /* Hide the hamburger on larger screens */
     }
 
     .category-container {
